@@ -1,0 +1,203 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../images/cabin-1082063_1280.jpg);
+    height: 880px;
+    background-size: 100% 100%;
+}
+
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    margin: 20px 0 0 20px;
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    list-style-type: none;
+    margin: 20px 0 0 20px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.search__box {
+    width: 430px;
+    background-color: white;
+    display: inline-block;
+    padding: 20px 30px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgb(214, 214, 214);
+}
+
+.search__title {
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(167, 76, 76);
+}
+
+p {
+    font-size: 12px;
+}
+table {
+    width: 100%;
+}
+
+.search__sub__title {
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.search__input {
+    height: 45px;
+    width: 100%;
+    color: rgb(100,98,98);
+    font-size: 15px;
+    border: 1px solid rgb(112, 87, 87);
+}
+
+.search__button {
+    display: grid;
+    justify-content: end;
+    padding: 20px 0;
+}
+
+.search__button button {
+    background-color: rgb(163, 16, 16);
+    color: white;
+    width: 70px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+}
+
+main {
+    margin: 30px 80px;
+}
+
+section    {
+    margin: 30px 0;
+}
+
+
+.sec__title {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(66, 65, 68);
+}
+
+.card__box  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    margin-top: 20px;
+}
+
+.card__img {
+    background-image: url(../images/village-279013_1920.jpg);
+    height: 50px;
+    background-size: 100% 100%;
+}
+.card   {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 6px;
+    box-shadow: 0 3px 3px 0 rgb(170, 170, 170);
+}
+
+.card__content  {
+    display: grid;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.ad1    {
+    background-image: url(../images/the-palm-962785_1920.jpg);
+    height: 350px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    
+}
+
+.choo__img  {
+    background-image: url(../images/mountains-1587287_1920.jpg);
+    height: 250px;
+    background-size: 100% 100%;
+}
+
+.choo__box  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    margin-top: 20px;
+}
+
+.ad2    {
+    background-image: url(../images/manor-house-2359884_1280.jpg);
+    height: 350px;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.home__img  {
+    background-image: url(../images/las-vegas-1846684_1920.jpg);
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+.home__box  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+.info1  {
+    margin: 5px 0;
+    font-size: 13px;
+    color: rgb(112, 87, 87);
+}
+
+.info2  {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(221, 204, 204);
+}
+
+.star   {
+    font-size: 12px;
+    color: rgb(30, 180, 800);
+    font-weight: 800;
+}
+
+.count, .type {
+    font-size: 12px;
+}
